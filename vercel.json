@@ -1,20 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "public/index.html", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ],
-  "headers": [
-    {
-      "source": "/glide.json",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
-      ]
-    }
-  ]
+  "src": "/glide.json",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "dest": "/glide.json"
 }
