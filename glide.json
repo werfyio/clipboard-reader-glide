@@ -1,0 +1,9 @@
+{
+  "name": "Clipboard Reader",
+  "description": "Leest tekst van het klembord bij klik.",
+  "version": "0.1.0",
+  "componentType": "experimental-code",
+  "parameters": [],
+  "requiredCapabilities": [],
+  "resultType": "string"
+}
